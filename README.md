@@ -23,7 +23,7 @@ Django项目在我的电脑上运行时默认的os路径是mysite（项目本身
 
 ### 1.1 OpenCV中基于Haar特征和级联分类器的人脸检测
 
-```pytho
+```python
 def opencv_detect(image_in, caspath=cascadeclassfier_path):
 	face_casecade = cv2.CascadeClassifier(caspath)
 	img = cv2.imread(image_in, cv2.IMREAD_COLOR)
